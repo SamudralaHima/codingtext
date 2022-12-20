@@ -1,0 +1,93 @@
+#main{
+    background-color: rgb(218, 218, 137);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.fake{
+    display: flex;
+    padding: 20px;
+}
+button{
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    /* height: 30px; */
+    padding-top: 5px;
+}
+#main2{
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_52683-59883.jpg?w=2000);
+    padding-top: 10px;
+    height: 1000px;
+}
+
+.box{
+    width:150px;
+    height: 100px;
+    align-content: center;
+    margin-top: 5px;
+    padding-left:50px ;
+}
+.linear{
+    animation:3s linear hima infinite;
+    background-color: green;
+}
+@keyframes hima{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 500px;
+    }
+}
+.ease{
+    animation:3s ease hima1 infinite;
+    background-color: red;
+}
+@keyframes hima1{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 500px;
+    }
+}
+.ease-in{
+    animation:3s ease-in hima2 infinite;
+    background-color: green;
+}
+@keyframes hima2{
+    0%{
+        margin-left:0px;
+    }
+    100%{
+        margin-left:500px;
+    }
+}
+.ease-out{
+    animation:3s ease-out hima3 infinite;
+    background-color: red;
+}
+@keyframes hima3{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left:500px
+    }
+}
+.ease-in-out{
+    animation: 3s ease-in-out hima4 infinite;
+    background-color: red;
+}
+@keyframes hima4 {
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 500px;
+    }
+}
